@@ -1,0 +1,43 @@
+console.log("-----------= While Loop =-----------");
+console.log("Q.1. WAP to print 5 to 15 by incrementing 1");
+var count =5;
+while (count<=15) {
+    console.log(count);
+    count++;
+}
+console.log("Q.2. WAP to print 50 to 40 by incrementing 1");
+var count =50;
+while (count>=40) {
+    console.log(count);
+    count--;
+}
+console.log("Q.3. WAP to print 15 odd numbers");
+var count =1;
+while (count<30) {
+    console.log(count);
+    count=count+2;
+}
+console.log("Q.4. WAP to print 10 even numbers");
+var count =0;
+while (count<=20) {
+    console.log(count);
+    count=count+2;
+}
+console.log("Q.5. WAP to print table 5 10 15....50");
+var count =5;
+while (count<=50) {
+    console.log(count);
+    count=count+5;
+}
+console.log("Q.6. WAP to print table 10 20 30....100");
+var count =10;
+while (count<=100) {
+    console.log(count);
+    count=count+10;
+}
+console.log("Q.7. WAP to print table of 10 in Reverse 10 20 30....100");
+var count =100;
+while (count>=10) {
+    console.log(count);
+    count=count-10;
+}
