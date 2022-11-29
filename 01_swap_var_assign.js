@@ -18,3 +18,15 @@ console.log("After Swapping");
 console.log(num1,num2,num3);
 
 
+ obj= {
+    lastname:"Tipu",
+    street:"gfhggh",
+    city:"FGFGH"
+
+}
+console.log(obj);
+for (const key in obj) {
+
+    console.log( obj[key]);
+    
+}
